@@ -28,7 +28,7 @@ spec:
       containers:
       - name: $project_name
         #发布时拉取最新版本的镜像
-        image: kettii/jenkins-demo:<BUILD_TAG>
+        image: crpi-qfj04o8vpxo885ho.cn-hangzhou.personal.cr.aliyuncs.com/kettii/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
 
 ---
